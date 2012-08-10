@@ -1,0 +1,15 @@
+{
+    "auto_indent": true,
+    "color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+    "detect_indentation": true,
+    "indent_to_bracket": true,
+    "smart_indent": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": "false",
+    "draw_white_space": "all",
+    "indent_guide_options": ["draw_active"],
+    "trim_trailing_white_space_on_save": true,
+    "highlight_modified_tabs": true,
+    "bold_folder_labels": true
+}
