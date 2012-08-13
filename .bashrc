@@ -31,5 +31,6 @@ if [ "$TERM_PROGRAM" == "Apple_Terminal" ] && [ -z "$INSIDE_EMACS" ]; then
 fi
 
 source ~/.git-prompt.sh
+source ~/.git-completion.bash
 
 PS1='\[\e[31m\][\A]\[\e[0;32m\][\e[0;33m\u\e[m\e[0;32m\]@\h \w] $(__git_ps1 "\[\e[0;33m\]:%s ")\[\e[0m\]\$ '
