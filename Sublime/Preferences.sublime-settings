@@ -1,0 +1,30 @@
+{
+	"auto_indent": true,
+	"bold_folder_labels": true,
+
+	"theme": "Phoenix Dark.sublime-theme",
+	"phoenix_color_blue": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_blur_current_tab": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_tabs_auto_width": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_tabs_default": true,
+
+	"detect_indentation": true,
+	"draw_white_space": "all",
+	"highlight_modified_tabs": true,
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"smart_indent": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "false"
+}

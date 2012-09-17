@@ -13,6 +13,7 @@ alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/sub
 alias composer='php5 ~/Utils/composer.phar'
 alias addhost='sudo ~/Utils/addHost.sh'
 
+
 # PS1='\h:\W \u\$ '
 # Make bash check its window size after a process completes
 shopt -s checkwinsize
@@ -34,3 +35,5 @@ source ~/.git-prompt.sh
 source ~/.git-completion.bash
 
 PS1='\[\e[31m\][\A]\[\e[0;32m\][\e[0;33m\u\e[m\e[0;32m\]@\h \w] $(__git_ps1 "\[\e[0;33m\]:%s ")\[\e[0m\]\$ '
+PATH=$PATH:~/pear/bin/:/usr/local/sbin
+
