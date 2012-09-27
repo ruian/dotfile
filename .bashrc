@@ -12,6 +12,7 @@ alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/sub
 
 alias composer='php5 ~/Utils/composer.phar'
 alias addhost='sudo ~/Utils/addHost.sh'
+alias rmDSTORE="find . -name \".DS_Store\" -exec rm {} \;"
 
 
 # PS1='\h:\W \u\$ '
