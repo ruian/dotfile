@@ -11,9 +11,10 @@ alias l='ls -Gl'
 alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -n -a'
 
 alias composer='php5 ~/Utils/composer.phar'
+alias csfixer='php5 ~/Utils/php-cs-fixer.phar'
 alias addhost='sudo ~/Utils/addHost.sh'
+alias addVhost='sudo ~/Utils/addVhost.sh'
 alias rmDSTORE="find . -name \".DS_Store\" -exec rm {} \;"
-
 
 # PS1='\h:\W \u\$ '
 # Make bash check its window size after a process completes
@@ -35,6 +36,10 @@ fi
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
 
-PS1='\[\e[31m\][\A]\[\e[0;32m\][\e[0;33m\u\e[m\e[0;32m\]@\h \w] $(__git_ps1 "\[\e[0;33m\]:%s ")\[\e[0m\]\$ '
-PATH=$PATH:~/pear/bin/:/usr/local/sbin
+# CHAR="♠"
+# my_function="
+#     prompt=\" \\[`tput sc`\\]  \\[`tput rc`\\]\\[\$CHAR\\] \"
+#     echo -e \$prompt"
+PS1="\[\e[0;33m\][Rock\[\e[0;32m\]⚡\[\e[0;33m\]Hard]\[\e[31m\][\A]\[\e[0;32m\][\[\e[0;94m\]\u\[\e[0;32m\]@\h \w] $(__git_ps1 "\[\e[0;33m\]:%s ")\[\e[0m\] \$ "
 
+PATH=$PATH:~/pear/bin/:/usr/local/sbin:"/Applications/Google Chrome.app/Contents/MacOS/"
